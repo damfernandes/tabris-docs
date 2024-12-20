@@ -1,113 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabris - Simplify Tab Management</title>
-  <link rel="stylesheet" href="assets/styles.css">
-  <link rel="icon" type="image/png" href="assets/icon.png">
-</head>
-<body>
-  <header class="header">
-    <img src="assets/icon.png" alt="Tabris Logo" class="logo">
-    <h1>Tabris</h1>
-    <p>The ultimate command palette for efficient tab management</p>
-    <a href="#features" class="cta-button">Explore Features</a>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabris - Simplify Tab Management</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" type="image/png" href="assets/icon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/icon.png" alt="Tabris Logo" class="logo" />
+      <h1>Tabris</h1>
+      <p>The ultimate command palette for efficient tab management</p>
+      <a href="#features" class="cta-button">Explore Features</a>
+    </header>
 
-  <section id="features" class="features">
-    <h2>Core Features</h2>
-    <div class="feature-grid">
-      <div class="feature-card">
-        <h3>Tab Organization</h3>
+    <section id="features" class="features">
+      <h2>Core Features</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Tab Organization</h3>
+          <ul>
+            <li>Auto-group tabs by domain or time</li>
+            <li>Move and sort tabs effortlessly</li>
+            <li>Manage groups with simple commands</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <h3>Quick Navigation</h3>
+          <ul>
+            <li>Find tabs instantly</li>
+            <li>Collapse/expand groups</li>
+            <li>Keyboard-first navigation</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+          <h3>Tab Management</h3>
+          <ul>
+            <li>Pin/unpin tabs</li>
+            <li>Mute/unmute tabs</li>
+            <li>Remove duplicates</li>
+          </ul>
+        </div>
+      </div>
+      <p class="features-note">
+        These are just some of our core features. Discover many more
+        capabilities as you use Tabris!
+      </p>
+    </section>
+
+    <section class="screenshots">
+      <h2>See Tabris in Action</h2>
+      <div class="screenshot-grid">
+        <figure class="screenshot">
+          <img src="assets/main_menu.png" alt="Tabris Command Palette" />
+          <figcaption>Quick Command Access</figcaption>
+        </figure>
+        <figure class="screenshot">
+          <img src="assets/screenshot.png" alt="Tab Groups Management" />
+          <figcaption>Organized Tab Groups</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="commands">
+      <h2>Command Reference</h2>
+      <p class="command-intro">
+        Open Tabris with <kbd>Ctrl</kbd> + <kbd>K</kbd> (Windows/Linux) or
+        <kbd>⌘</kbd> + <kbd>K</kbd> (Mac), then type a command. Here are some
+        examples:
+      </p>
+      <div class="command-categories">
+        <div class="category">
+          <h3>Navigation</h3>
+          <div class="command-item"><code>ft</code> - Find a tab</div>
+        </div>
+        <div class="category">
+          <h3>Organization</h3>
+          <div class="command-item">
+            <code>gt</code> - Auto group tabs (by domain or time)
+          </div>
+          <div class="command-item"><code>ug</code> - Ungroup tabs</div>
+          <div class="command-item"><code>mc</code> - Move tab to group</div>
+        </div>
+        <!-- Add more categories as needed -->
+      </div>
+      <p class="commands-note">
+        This is a subset of available commands. Explore more commands directly
+        in Tabris!
+      </p>
+    </section>
+
+    <section class="privacy">
+      <h2>Privacy First</h2>
+      <div class="privacy-content">
+        <p>Tabris is built with your privacy in mind. We:</p>
         <ul>
-          <li>Auto-group tabs by domain or time</li>
-          <li>Move and sort tabs effortlessly</li>
-          <li>Manage groups with simple commands</li>
+          <li>Never collect or store your personal data</li>
+          <li>Don't track your browsing history</li>
+          <li>Keep all your data local to your browser</li>
+          <li>No analytics or tracking scripts</li>
         </ul>
       </div>
-      <div class="feature-card">
-        <h3>Quick Navigation</h3>
-        <ul>
-          <li>Find tabs instantly</li>
-          <li>Collapse/expand groups</li>
-          <li>Keyboard-first navigation</li>
-        </ul>
-      </div>
-      <div class="feature-card">
-        <h3>Tab Management</h3>
-        <ul>
-          <li>Pin/unpin tabs</li>
-          <li>Mute/unmute tabs</li>
-          <li>Remove duplicates</li>
-        </ul>
-      </div>
-    </div>
-    <p class="features-note">These are just some of our core features. Discover many more capabilities as you use Tabris!</p>
-  </section>
+    </section>
 
-  <section class="screenshots">
-    <h2>See Tabris in Action</h2>
-    <div class="screenshot-grid">
-      <figure class="screenshot">
-        <img src="assets/main_menu.png" alt="Tabris Command Palette">
-        <figcaption>Quick Command Access</figcaption>
-      </figure>
-      <figure class="screenshot">
-        <img src="assets/screenshot.png" alt="Tab Groups Management">
-        <figcaption>Organized Tab Groups</figcaption>
-      </figure>
-    </div>
-  </section>
+    <section class="support">
+      <h2>Support Tabris</h2>
+      <p>If you find Tabris useful, consider supporting its development!</p>
+      <script
+        type="text/javascript"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+        data-name="bmc-button"
+        data-slug="tabrisextension"
+        data-color="#FFDD00"
+        data-emoji="☕"
+        data-font="Arial"
+        data-text="Buy me a coffee"
+        data-outline-color="#000000"
+        data-font-color="#000000"
+        data-coffee-color="#ffffff"
+      ></script>
+    </section>
 
-  <section class="commands">
-    <h2>Command Reference</h2>
-    <p class="command-intro">Open Tabris with <kbd>Ctrl</kbd> + <kbd>K</kbd> (Windows/Linux) or <kbd>⌘</kbd> + <kbd>K</kbd> (Mac), then type a command. Here are some examples:</p>
-    <div class="command-categories">
-      <div class="category">
-        <h3>Navigation</h3>
-        <div class="command-item">
-          <code>ft</code> - Find a tab
-        </div>
-      </div>
-      <div class="category">
-        <h3>Organization</h3>
-        <div class="command-item">
-          <code>gt</code> - Auto group tabs (by domain or time)
-        </div>
-        <div class="command-item">
-          <code>ug</code> - Ungroup tabs
-        </div>
-        <div class="command-item">
-          <code>mc</code> - Move tab to group
-        </div>
-      </div>
-      <!-- Add more categories as needed -->
-    </div>
-    <p class="commands-note">This is a subset of available commands. Explore more commands directly in Tabris!</p>
-  </section>
-
-  <section class="privacy">
-    <h2>Privacy First</h2>
-    <div class="privacy-content">
-      <p>Tabris is built with your privacy in mind. We:</p>
-      <ul>
-        <li>Never collect or store your personal data</li>
-        <li>Don't track your browsing history</li>
-        <li>Keep all your data local to your browser</li>
-        <li>No analytics or tracking scripts</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="support">
-    <h2>Support Tabris</h2>
-    <p>If you find Tabris useful, consider supporting its development!</p>
-    <a href="https://www.buymeacoffee.com/tabrisextension" class="donate-button">Buy Me a Coffee</a>
-  </section>
-
-  <footer class="footer">
-    <p>© 2024 Tabris. All rights reserved.</p>
-  </footer>
-</body>
+    <footer class="footer">
+      <p>© 2024 Tabris. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
