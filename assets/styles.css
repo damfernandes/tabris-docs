@@ -151,8 +151,12 @@ body {
 
 .screenshot img {
   width: 100%;
+  max-width: 600px;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  display: block;
 }
 
 .screenshot figcaption {
@@ -160,4 +164,9 @@ body {
   margin-top: 1rem;
   font-size: 0.9rem;
   color: #666;
+}
+
+.support {
+  text-align: center;
+  padding: 3rem 2rem;
 } 
