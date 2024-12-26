@@ -9,24 +9,39 @@
   </head>
   <body>
     <header class="header">
-      <img src="assets/icon.png" alt="Tabris Logo" class="logo" />
-      <h1>Tabris</h1>
-      <p>The ultimate command palette for efficient tab management</p>
-      <a href="#features" class="cta-button">Explore Features</a>
+      <div class="hero-content">
+        <img src="assets/icon.png" alt="Tabris Logo" class="logo" />
+        <h1>Tabris</h1>
+        <p class="hero-tagline">
+          Transform your browser tab chaos into zen-like organization
+        </p>
+        <p class="hero-subtitle">
+          A powerful command palette that makes tab management effortless and
+          intuitive
+        </p>
+        <div class="cta-group">
+          <a href="#features" class="cta-button primary">Explore Features</a>
+          <a href="#install" class="cta-button secondary">Install Now</a>
+        </div>
+      </div>
     </header>
 
     <section id="features" class="features">
-      <h2>Core Features</h2>
+      <h2>Why Choose Tabris?</h2>
       <div class="feature-grid">
         <div class="feature-card">
-          <h3>Tab Organization</h3>
+          <div class="feature-icon">🎯</div>
+          <h3>Smart Tab Organization</h3>
           <ul>
-            <li>Auto-group tabs by domain or time</li>
-            <li>Move and sort tabs effortlessly</li>
-            <li>Manage groups with simple commands</li>
+            <li>
+              Intelligent auto-grouping based on domains and browsing patterns
+            </li>
+            <li>Drag-and-drop simplicity with keyboard shortcuts</li>
+            <li>Custom groups with color coding and flexible naming</li>
           </ul>
         </div>
         <div class="feature-card">
+          <div class="feature-icon">🔍</div>
           <h3>Quick Navigation</h3>
           <ul>
             <li>Find tabs instantly</li>
@@ -35,6 +50,7 @@
           </ul>
         </div>
         <div class="feature-card">
+          <div class="feature-icon">🔧</div>
           <h3>Tab Management</h3>
           <ul>
             <li>Pin/unpin tabs</li>
@@ -50,63 +66,114 @@
     </section>
 
     <section class="screenshots">
-      <h2>See Tabris in Action</h2>
+      <h2>Experience the Magic</h2>
+      <p class="section-intro">
+        See how Tabris transforms your browsing experience with these powerful
+        features:
+      </p>
       <div class="screenshot-grid">
         <figure class="screenshot">
-          <img src="assets/main_menu.png" alt="Tabris Command Palette" />
-          <figcaption>Quick Command Access</figcaption>
+          <div class="screenshot-wrapper">
+            <img
+              src="assets/commands_view.png"
+              alt="Quick Actions Screenshot"
+            />
+          </div>
+          <figcaption>
+            <h4>Lightning-Fast Commands</h4>
+            <p>Access any feature with our intuitive command palette</p>
+          </figcaption>
         </figure>
         <figure class="screenshot">
-          <img src="assets/screenshot.png" alt="Tab Groups Management" />
-          <figcaption>Organized Tab Groups</figcaption>
+          <img src="assets/tabs_view.png" alt="View Tabs Screenshot" />
+          <figcaption>View and Update Tabs</figcaption>
+        </figure>
+        <figure class="screenshot">
+          <img src="assets/groups_view.png" alt="View Groups Screenshot" />
+          <figcaption>Manage Tab Groups</figcaption>
+        </figure>
+        <figure class="screenshot">
+          <img src="assets/regroup.png" alt="Regroup Command Screenshot" />
+          <figcaption>Easy Commands</figcaption>
         </figure>
       </div>
     </section>
 
     <section class="commands">
-      <h2>Command Reference</h2>
+      <h2>Master Your Workflow</h2>
       <p class="command-intro">
-        Open Tabris with <kbd>Ctrl</kbd> + <kbd>K</kbd> (Windows/Linux) or
-        <kbd>⌘</kbd> + <kbd>K</kbd> (Mac), then type a command. Here are some
-        examples:
+        Access Tabris instantly with <kbd>Ctrl</kbd> +
+        <kbd>K</kbd> (Windows/Linux) or <kbd>⌘</kbd> + <kbd>K</kbd> (Mac).
+        Here's your quick command reference:
       </p>
       <div class="command-categories">
         <div class="category">
-          <h3>Navigation</h3>
-          <div class="command-item"><code>ft</code> - Find a tab</div>
+          <h3>View Commands</h3>
+          <ul>
+            <li><code>View Tabs</code>: View and update tabs</li>
+            <li><code>View Groups</code>: View and update tab groups</li>
+          </ul>
         </div>
         <div class="category">
-          <h3>Organization</h3>
-          <div class="command-item">
-            <code>gt</code> - Auto group tabs (by domain or time)
-          </div>
-          <div class="command-item"><code>ug</code> - Ungroup tabs</div>
-          <div class="command-item"><code>mc</code> - Move tab to group</div>
+          <h3>Organization Commands</h3>
+          <ul>
+            <li>
+              <code>Auto Group Ungrouped Tabs</code>: Group ungrouped tabs
+            </li>
+            <li><code>Auto Regroup All Tabs</code>: Regroup all tabs</li>
+            <li><code>Ungroup Tabs</code>: Remove tabs from a group</li>
+            <li><code>Reorder Group</code>: Reorder tabs within a group</li>
+          </ul>
         </div>
-        <!-- Add more categories as needed -->
+        <div class="category">
+          <h3>State Commands</h3>
+          <ul>
+            <li><code>Pin Tab</code>: Pin a tab</li>
+            <li><code>Unpin Tab</code>: Unpin a tab</li>
+            <li><code>Mute Tab</code>: Mute a specific tab</li>
+            <li><code>Collapse Groups</code>: Collapse all groups</li>
+          </ul>
+        </div>
+        <div class="category">
+          <h3>Maintenance Commands</h3>
+          <ul>
+            <li><code>Edit Group</code>: Rename or recolor a group</li>
+            <li>
+              <code>Remove Duplicate Tabs</code>: Identify and remove duplicates
+            </li>
+            <li>
+              <code>Delete Group</code>: Delete a group and close all its tabs
+            </li>
+          </ul>
+        </div>
       </div>
-      <p class="commands-note">
-        This is a subset of available commands. Explore more commands directly
-        in Tabris!
-      </p>
     </section>
 
     <section class="privacy">
-      <h2>Privacy First</h2>
+      <h2>We value your privacy</h2>
       <div class="privacy-content">
-        <p>Tabris is built with your privacy in mind. We:</p>
-        <ul>
-          <li>Never collect or store your personal data</li>
-          <li>Don't track your browsing history</li>
-          <li>Keep all your data local to your browser</li>
-          <li>No analytics or tracking scripts</li>
-        </ul>
+        <div class="privacy-icon">🛡️</div>
+        <div class="privacy-details">
+          <p class="privacy-intro">
+            We believe in absolute privacy and security:
+          </p>
+          <ul class="privacy-list">
+            <li>
+              <span class="check">✓</span> No data collection - your browsing
+              stays private
+            </li>
+            <li><span class="check">✓</span> 100% local data storage</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section class="support">
       <h2>Support Tabris</h2>
-      <p>If you find Tabris useful, consider supporting its development!</p>
+      <p class="support-text">
+        Love using Tabris? Help us make it even better! Your support enables
+        continuous improvements and new features.
+      </p>
       <script
         type="text/javascript"
         src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
@@ -123,7 +190,9 @@
     </section>
 
     <footer class="footer">
-      <p>© 2024 Tabris. All rights reserved.</p>
+      <div class="footer-content">
+        <p>© 2024 Tabris. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
